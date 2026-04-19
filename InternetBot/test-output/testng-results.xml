@@ -1,45 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T15:38:19 IST" name="Default suite" finished-at="2026-04-19T15:38:50 IST" duration-ms="30744">
+  <suite started-at="2026-04-19T15:49:57 IST" name="Default suite" finished-at="2026-04-19T15:50:37 IST" duration-ms="40402">
     <groups>
     </groups>
-    <test started-at="2026-04-19T15:38:19 IST" name="Default test" finished-at="2026-04-19T15:38:50 IST" duration-ms="30744">
-      <class name="tests.DropdownTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:19 IST" name="setup" finished-at="2026-04-19T15:38:35 IST" duration-ms="16623" status="PASS">
+    <test started-at="2026-04-19T15:49:57 IST" name="Default test" finished-at="2026-04-19T15:50:37 IST" duration-ms="40402">
+      <class name="tests.UploadTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:49:57 IST" name="setup" finished-at="2026-04-19T15:50:10 IST" duration-ms="13101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:35 IST" name="navigate" finished-at="2026-04-19T15:38:36 IST" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:10 IST" name="navigate" finished-at="2026-04-19T15:50:12 IST" duration-ms="1842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="verifyDropdownSelection()[pri:1, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:36 IST" name="verifyDropdownSelection" finished-at="2026-04-19T15:38:36 IST" duration-ms="595" status="PASS">
+        <test-method signature="verifyUploadPageUI()[pri:1, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:12 IST" name="verifyUploadPageUI" finished-at="2026-04-19T15:50:12 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDropdownSelection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:36 IST" name="tearDown" finished-at="2026-04-19T15:38:37 IST" duration-ms="297" status="PASS">
+        </test-method> <!-- verifyUploadPageUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:12 IST" name="tearDown" finished-at="2026-04-19T15:50:12 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:37 IST" name="setup" finished-at="2026-04-19T15:38:49 IST" duration-ms="12149" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:12 IST" name="setup" finished-at="2026-04-19T15:50:24 IST" duration-ms="11547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigate()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:49 IST" name="navigate" finished-at="2026-04-19T15:38:49 IST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:24 IST" name="navigate" finished-at="2026-04-19T15:50:25 IST" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="verifyDropdownOptionsCount()[pri:2, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:49 IST" name="verifyDropdownOptionsCount" finished-at="2026-04-19T15:38:49 IST" duration-ms="118" status="PASS">
+        <test-method signature="verifyFileUpload()[pri:2, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:25 IST" name="verifyFileUpload" finished-at="2026-04-19T15:50:25 IST" duration-ms="798" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDropdownOptionsCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@702657cc]" started-at="2026-04-19T15:38:49 IST" name="tearDown" finished-at="2026-04-19T15:38:50 IST" duration-ms="244" status="PASS">
+        </test-method> <!-- verifyFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:25 IST" name="tearDown" finished-at="2026-04-19T15:50:26 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.DropdownTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:26 IST" name="setup" finished-at="2026-04-19T15:50:35 IST" duration-ms="9656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigate()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:35 IST" name="navigate" finished-at="2026-04-19T15:50:36 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="verifyInvalidFileUpload()[pri:3, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:36 IST" name="verifyInvalidFileUpload" finished-at="2026-04-19T15:50:37 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UploadTest@6a6cb05c]" started-at="2026-04-19T15:50:37 IST" name="tearDown" finished-at="2026-04-19T15:50:37 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UploadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

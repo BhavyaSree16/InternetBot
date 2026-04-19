@@ -26,5 +26,12 @@
             <class name="tests.DropdownTest"/>
         </classes>
     </test>
+    
+    <!-- FileUpload Module -->
+    <test name="File Upload Tests">
+    <classes>
+        <class name="tests.UploadTest"/>
+    </classes>
+	</test>
 
 </suite> <!-- Suite -->
