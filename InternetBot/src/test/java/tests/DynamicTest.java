@@ -11,7 +11,7 @@ import utils.TestListener;
 @Listeners(TestListener.class)
 public class DynamicTest extends BaseTest {
 
-    // ✅ 1. Click Start and wait for element
+    // 1. Click Start and wait for element
     @Test(priority = 1)
     public void verifyDynamicLoading() {
 
@@ -31,7 +31,7 @@ public class DynamicTest extends BaseTest {
         System.out.println("Dynamic Loading Verified Successfully");
     }
 
-    // ✅ 2. Verify loaded text again (separate validation)
+    // 2. Verify loaded text again (separate validation)
     @Test(priority = 2)
     public void verifyLoadedText() {
 
@@ -49,7 +49,7 @@ public class DynamicTest extends BaseTest {
         System.out.println("Loaded text validated");
     }
 
-    // 🔄 3. Disappearing element reappears after refresh
+    // 3. Disappearing element reappears after refresh
     @Test(priority = 3)
     public void verifyDisappearingElement() {
 
