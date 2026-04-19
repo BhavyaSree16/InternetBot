@@ -15,13 +15,17 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
+
         ExtentTest extentTest = extent.createTest(result.getName());
         test.set(extentTest);
+
+        test.get().info("Test Started");
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.get().pass("Test Passed");
+
+        test.get().pass("Test Passed Successfully");
     }
 
     @Override
@@ -34,11 +38,18 @@ public class TestListener implements ITestListener {
 
         String path = ScreenshotUtil.capture(driver, result.getName());
 
-        try {
-            test.get().addScreenCaptureFromPath(path);
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (path != null) {
+            try {
+                test.get().addScreenCaptureFromPath(path);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
+    }
+
+    @Override
+    public void onTestSkipped(ITestResult result) {
+        test.get().skip("Test Skipped");
     }
 
     @Override
