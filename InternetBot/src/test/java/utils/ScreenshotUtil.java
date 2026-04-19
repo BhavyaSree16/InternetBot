@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class ScreenshotUtil {
 
-    public static void capture(WebDriver driver, String name) {
+    public static String capture(WebDriver driver, String name) {
 
         try {
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -18,10 +18,10 @@ public class ScreenshotUtil {
 
             FileUtils.copyFile(src, new File(path));
 
-            System.out.println("Screenshot saved: " + path);
+            return path;
 
         } catch (Exception e) {
-            e.printStackTrace();
+            return null;
         }
     }
 }

@@ -6,9 +6,17 @@
         <listener class-name="utils.TestListener"/>
     </listeners>
 
+    <!-- Authentication Module -->
     <test name="Authentication Tests">
         <classes>
             <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Alerts Module -->
+    <test name="Alerts Tests">
+        <classes>
+            <class name="tests.AlertsTest"/>
         </classes>
     </test>
 
