@@ -19,5 +19,12 @@
             <class name="tests.AlertsTest"/>
         </classes>
     </test>
+    
+    <!-- Dropdown Module -->
+    <test name="Dropdown Tests">
+        <classes>
+            <class name="tests.DropdownTest"/>
+        </classes>
+    </test>
 
 </suite> <!-- Suite -->
