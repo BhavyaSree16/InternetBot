@@ -238,7 +238,7 @@ reports/screenshots/
 
 ---
 
-## 📊 Extent Report
+## Extent Report
 
 After execution, a detailed HTML report is generated:
 
@@ -255,7 +255,7 @@ reports/ExtentReport.html
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### config.properties
 
